@@ -1,0 +1,6 @@
+<?
+
+class PCExceptionController extends PCException {
+
+
+}

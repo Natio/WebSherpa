@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.inputContainer {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputContainer input[type="checkbox"]{
+    margin-top: 50px;
+}
+.inputContainer input[type="text"], .inputContainer input[type="password"] {
+    text-align: center;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: #8C8C8C;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    width: 340px;
+    box-shadow: 2px 2px 5px #CCCCCC;
+}
+.inputContainer button#registerButton {
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    display:block;
+}
+.inputContainer button#loginButton {
+    display: block;
+    width: 100px;
+    left: 37% ;
+    position: absolute;
+    bottom: 20px;
+}
+.inputContainer p {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-weight: 200;
+}
+.inputContainer label {
+    color: #848484;
+    font-weight: 200;
+    margin-left: 10px;
+}
+.inputContainer .captchaContainer {
+    width: 340px;
+    height: 100px;
+    display: block;
+}
+
+#registerResultLabel{
+    margin:20px;
+    text-align:center;
+    margin-top:100px;
+    font-size:16px;
+    background-color:green;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.inputContainer button#sendLostPasswordButton{
+    margin-left: -50px;
+    left: 50%;
+    margin-right: auto;
+    position: absolute;
+    bottom: 20px;
+    display: block;
+}
+
+.popupOverlay .lostPassword{
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    color:#000;
+    display:inline;
+    float:left;
+    font-size:14px;
+    padding-top:3px;
+    padding-right:5px;
+    padding-bottom:3px;
+    padding-left:5px;
+    border-bottom-right-radius:3px;
+    text-align:center;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:#CCC;
+    border-right-color:#CCC;
+    border-right-style:solid;
+    border-right-width:1px;
+
+}
+
+#termsLabel{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*
+#loginPopup .inputContainer{
+    margin-top: 0px;
+}*/
+
+div.socialRegisterContainer{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+div.socialRegisterContainer h3{
+    font-size: 17px;
+    text-align: center;
+}
+
+div.socialRegisterContainer .socialButtons{
+    display: block;
+}
+
+div.socialRegisterContainer div.socialSprite{
+    display:block;
+}
+
+.socialSprite{
+    width: 202px;
+    height: 36px;
+    background-image: url(/public/fresh/img/login_tile.png);
+}
+.socialSprite.twitterBackground{
+    background-position: 202px 0px;
+}
+.socialSprite.facebookBackground{
+    background-position: 0px 0px;
+}
+.inputContainer.socialLoginContainer{
+    margin-top: 30px;
+    display: block;
+}
+.inputContainer.socialLoginContainer h3{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+.inputContainer.socialLoginContainer .socialSprite{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}

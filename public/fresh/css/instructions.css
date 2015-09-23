@@ -1,0 +1,30 @@
+.instructionDivider{
+    background-image:url(/public/fresh/img/down_arrow.png);
+    background-repeat:no-repeat;
+    min-height:94px;
+    max-width:74px;
+    width:inherit;
+    margin-left:auto;
+    margin-right:auto;
+}
+.instructionBox{
+    width:inherit;
+    border-radius:2px;
+    font-weight:100;
+}
+.instructionBox .instructionHeader{
+    width:inherit;
+
+}
+.instructionBox .instructionHeader h2{
+    text-align:center;
+}
+.instructionBox .instructionBox img.inlineImage{
+    display:inline;
+}
+.instructionBox .instructionBody{
+    font-size:16px;
+    font-weight:200;
+    margin-left:50px;
+    margin-right:50px;
+}

@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.websherpa\.me$ [NC]
+RewriteRule ^(.*)$ http://websherpa.me/$1 [R=301,L]
+
+RewriteRule ^favicon\.ico$ /public/fav.ico [L]
+RewriteRule    ^public(/?) /public [L]
+RewriteRule    ^(.*)$    index.php   [L]

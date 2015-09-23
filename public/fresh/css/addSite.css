@@ -1,0 +1,50 @@
+
+div#inputBox{
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div#inputBox div.inputRow {
+   
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div#inputBox div.inputRow select {
+    float: right;
+    height: 20px;
+}
+#sendButton {
+    width:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.campoUrlContainer{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+
+.campoUrlContainer #campoUrl{
+    width:inherit;
+    height:40px;
+    border-radius:5px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#999;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    box-shadow:1px 1px 7px #cfcfcf;
+}
+.campoUrlContainer .urlTitle{
+    margin-top:10px;
+    text-align:center;
+
+}
